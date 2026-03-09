@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(gh repo view academicpages/academicpages.github.io --json description,url)",
+      "Bash(git clone --depth 1 https://github.com/academicpages/academicpages.github.io.git /tmp/academicpages)",
+      "Bash(ruby --version)",
+      "Bash(bundle config set --local path 'vendor/bundle')",
+      "Bash(bundle install)",
+      "Bash(brew install ruby)",
+      "Bash(export PATH=\"/opt/homebrew/opt/ruby/bin:$PATH\")",
+      "Bash(export LDFLAGS=\"-L/opt/homebrew/opt/ruby/lib\")",
+      "Bash(export CPPFLAGS=\"-I/opt/homebrew/opt/ruby/include\")"
+    ]
+  }
+}
