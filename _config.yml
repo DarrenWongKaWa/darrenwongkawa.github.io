@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Kawa Wong"
   pronouns         :
-  bio              : "Physics student at Zhejiang University???"
+  bio              : "Physics student at Zhejiang University"
   location         : "Hangzhou, China"
   employer         : "Zhejiang University"
   uri              :
@@ -41,7 +41,7 @@ author:
   orcid            :
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
