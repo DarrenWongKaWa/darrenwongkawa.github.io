@@ -7,58 +7,47 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Zhejiang University**, Hangzhou, China
+  * B.Sc. in Physics, School of Physics | Sept. 2023 -- Present
+  * Expected Graduation: June 2027
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Research Assistant**
+  * Advisor: Prof. Yunhao Lu | Dec. 2025 -- Present
+  * Project: Electronic Instabilities in Zigzag Black Phosphorus Nanoribbons
+  * Used VASP (DFT) for first-principles calculations
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Computational Physics Project**
+  * Advisor: Prof. Yunhao Lu | May 2025
+  * Project: Calculation of Spontaneous Polarization in AlN
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* **Research Assistant**
+  * Advisor: Prof. Zhouyang Wang | Late 2024
+  * Project: Non-linear Dynamics and Chaos in Magnetic Pendulum Systems
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Computational Physics:** VASP (DFT), First-principles Calculations
+* **Programming:** Python (NumPy, Matplotlib), Linux/Unix Shell, LaTeX
+* **Languages:** English (Working Proficiency), Mandarin (Native), Cantonese (Fluent)
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Learning
 ======
   <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
-Teaching
+
+Notes
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
