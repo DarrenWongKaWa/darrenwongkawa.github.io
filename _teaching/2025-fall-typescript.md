@@ -10,11 +10,10 @@ link: /files/TS.pdf
 ---
 
 This is a comprehensive TypeScript tutorial covering basic to advanced topics including:
+
 - Type System
 - Interfaces
 - Generics
 - Classes
 - Modules
 - And more...
-
-[Download PDF](/files/TS.pdf)
