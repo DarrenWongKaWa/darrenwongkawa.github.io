@@ -9,6 +9,8 @@ redirect_from:
 
 I am a physics student at **Zhejiang University**, Hangzhou, China. Currently in my third year, I specialize in computational physics and condensed matter physics.
 
+This semester, I am taking **General Relativity** and **Solid State Physics**, which deepen my understanding of gravitational theory and condensed matter systems. I am particularly interested in condensed matter physics and eager to explore the quantum many-body phenomena in solid-state systems.
+
 ## Education
 
 **Zhejiang University** | Hangzhou, China
