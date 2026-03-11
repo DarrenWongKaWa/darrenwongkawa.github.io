@@ -13,7 +13,6 @@ I am a physics student at **Zhejiang University**, Hangzhou, China. Currently in
 
 **Zhejiang University** | Hangzhou, China
 *B.Sc. in Physics*, School of Physics | Sept. 2023 -- Present
-- **GPA:** 3.63 / 4.3 (Major GPA: 3.92 / 4.3)
 - **Expected Graduation:** June 2027
 - **Core Courses:** Thermodynamics and Statistical Physics (96/100), Electrodynamics (94/100), Quantum Mechanics, Mathematical Methods in Physics
 
