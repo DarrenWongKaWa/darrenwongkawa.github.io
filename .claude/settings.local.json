@@ -10,7 +10,9 @@
       "Bash(brew install ruby)",
       "Bash(export PATH=\"/opt/homebrew/opt/ruby/bin:$PATH\")",
       "Bash(export LDFLAGS=\"-L/opt/homebrew/opt/ruby/lib\")",
-      "Bash(export CPPFLAGS=\"-I/opt/homebrew/opt/ruby/include\")"
+      "Bash(export CPPFLAGS=\"-I/opt/homebrew/opt/ruby/include\")",
+      "Bash(cp \"/Users/wangjiahua/Desktop/25-26/广相/chapter1.pdf\" \"/Users/wangjiahua/Desktop/cc_test2/files/\")",
+      "Bash(cp \"/Users/wangjiahua/Desktop/25-26/广相/chapter2.pdf\" \"/Users/wangjiahua/Desktop/cc_test2/files/\")"
     ]
   }
 }
