@@ -11,11 +11,12 @@ tags:
   - topology
   - manifolds
 ---
-
 # General Relativity: Topology and Manifolds
 
 ## Overview
+
 Learning notes for General Relativity, covering topology and manifolds.
 
 ## References
-- [Chapter 1 PDF](/files/chapter1.pdf)
+
+- [Lec2 PDF](/files/chapter1.pdf)
