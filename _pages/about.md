@@ -6,7 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 I am a physics student at **Zhejiang University**, Hangzhou, China. Currently in my third year, I specialize in computational physics and condensed matter physics.
 
 This semester, I am taking **General Relativity** and **Solid State Physics**, I am particularly interested in condensed matter physics and eager to explore the quantum many-body phenomena in solid-state systems.
@@ -15,26 +14,29 @@ This semester, I am taking **General Relativity** and **Solid State Physics**, I
 
 **Zhejiang University** | Hangzhou, China
 *B.Sc. in Physics*, School of Physics | Sept. 2023 -- Present
+
 - **Expected Graduation:** June 2027
 - **Core Courses:** Thermodynamics and Statistical Physics (96/100), Electrodynamics (94/100), Quantum Mechanics, Mathematical Methods in Physics
-
 
 ## Research Experience
 
 **Electronic Instabilities in Zigzag Black Phosphorus Nanoribbons**
 *Independent Researcher* --- Advisor: Prof. Yunhao Lu | Dec. 2025 -- Present
+
 - Verified that the system relaxes into a non-magnetic ground state driven by lattice reconstruction, opening a bandgap of ≈ 11.6 meV
 - Investigated the competition between Stoner instability and Peierls instability using DFT (VASP)
 - Analyzed band structures and Projected Density of States (PDOS) to identify edge-localized states
 
 **Calculation of Spontaneous Polarization in AlN**
 *Computational Physics Project* --- Advisor: Prof. Yunhao Lu | May 2025
+
 - Successfully computed the polarization difference relative to the centrosymmetric reference (1.32 C/m²), achieving precision with <0.22% error
 - Performed First-principles calculations to determine the spontaneous polarization of Wurtzite AlN
 - Conducted rigorous convergence tests on plane-wave cutoff energy and K-point sampling
 
 **Non-linear Dynamics and Chaos in Magnetic Pendulum Systems**
 *Co-Researcher* --- Advisor: Prof. Zhouyang Wang | Late 2024
+
 - Validated the "Butterfly Effect" in magnetic pendulum systems and analyzed the transition from chaotic to periodic motion
 - Modeled the dynamics of a pendulum under non-linear magnetic potentials using Lagrangian mechanics
 
@@ -57,7 +59,6 @@ This semester, I am taking **General Relativity** and **Solid State Physics**, I
 I am an avid long-distance runner. My personal bests:
 
 - **Half Marathon:** 1:36:00
-- **10K:** 45:00
 
 ## Contact
 
