@@ -9,7 +9,7 @@ redirect_from:
 
 I am a physics student at **Zhejiang University**, Hangzhou, China. Currently in my third year, I specialize in computational physics and condensed matter physics.
 
-This semester, I am taking **General Relativity** and **Solid State Physics**, which deepen my understanding of gravitational theory and condensed matter systems. I am particularly interested in condensed matter physics and eager to explore the quantum many-body phenomena in solid-state systems.
+This semester, I am taking **General Relativity** and **Solid State Physics**, I am particularly interested in condensed matter physics and eager to explore the quantum many-body phenomena in solid-state systems.
 
 ## Education
 
@@ -18,11 +18,6 @@ This semester, I am taking **General Relativity** and **Solid State Physics**, w
 - **Expected Graduation:** June 2027
 - **Core Courses:** Thermodynamics and Statistical Physics (96/100), Electrodynamics (94/100), Quantum Mechanics, Mathematical Methods in Physics
 
-## Honors & Awards
-
-- **Bronze Medal**, 53rd International Physics Olympiad (IPhO) | 2023
-- **Honorable Mention**, 23rd Asian Physics Olympiad (APhO) | 2023
-- **Third-Class Scholarship**, Zhejiang University (Academic Excellence) | 2024
 
 ## Research Experience
 
@@ -50,6 +45,19 @@ This semester, I am taking **General Relativity** and **Solid State Physics**, w
 **Programming & Tools:** Python (NumPy, Matplotlib), Linux/Unix Shell, LaTeX, Origin
 
 **Languages:** English (Working Proficiency), Mandarin (Native), Cantonese (Fluent)
+
+## Honors & Awards
+
+- **Bronze Medal**, 53rd International Physics Olympiad (IPhO) | 2023
+- **Honorable Mention**, 23rd Asian Physics Olympiad (APhO) | 2023
+- **Third-Class Scholarship**, Zhejiang University (Academic Excellence) | 2024
+
+## Running
+
+I am an avid long-distance runner. My personal bests:
+
+- **Half Marathon:** 1:36:00
+- **10K:** 45:00
 
 ## Contact
 
