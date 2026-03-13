@@ -58,7 +58,9 @@ This semester, I am taking **General Relativity** and **Solid State Physics**, I
 
 I am an avid long-distance runner. My personal bests:
 
-- **Half Marathon:** 1:36:00
+- **Half Marathon:** 1:36:19
+
+The King I followed is 1:24:58. But I will try to excel that soon.
 
 ## Contact
 
