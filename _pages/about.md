@@ -19,6 +19,15 @@ I am a physics student at **Zhejiang University**, Hangzhou, China. Currently in
 
 ## Research Experience
 
+**GNPNN: Geometry-Native Physical Neural Networks**
+*Physics-for-AI Research Program* | Aug. 2026 -- Present
+
+- Investigates whether neural latent states typed as sections of symmetry- and gauge-structured fiber bundles, with connection-based message passing, provide more compact, transferable, and interpretable representations than generic hidden-vector features
+- Designed and ran a controlled U(1)/SO(2) graph benchmark: 2³ factorial architecture experiment (192 scheduled configurations, 168 trained, 0 failed), decomposing the architecture into fixed typed transport (A), learned covariant connection refinement (B), and holonomy memory (C)
+- Led an adversarial audit that identified five critical defects (registry collisions, inconsistent loss semantics, angular metric errors, factor leakage, incomplete run provenance); all remediated and independently validated from a clean checkout
+- Established the narrow supported result that fixed typed transport substantially improves the T1 benchmark (M100 test loss 0.0686 ± 0.0350, Factor A main effect +0.9085), while falsifying prior claims (best-model, A×C interaction, T5 curvature-memory)
+- Built the reproducibility stack: content-addressed run ledgers, round registry, claim-lineage tracking, and round verification scripts (`verify_round.py`, `verify_all_rounds.py`)
+
 **Dissipation-Induced Nonreciprocal Current**
 *Research Project* --- Collaborators: Zhichao Guo, Prof. Hua Wang | Apr. 2026 -- Present
 

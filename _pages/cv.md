@@ -16,6 +16,14 @@ Education
 
 Research Experience
 ======
+* **Physics-for-AI Research Program: GNPNN (Geometry-Native Physical Neural Networks)**
+  * Aug. 2026 -- Present
+  * Investigates whether neural latent states typed as sections of symmetry- and gauge-structured fiber bundles, with connection-based message passing, give more compact, transferable, and interpretable representations than generic features
+  * Designed a U(1)/SO(2) graph benchmark with a complete 2³ factorial architecture experiment (192 scheduled configurations, 168 trained, 0 failed): fixed typed transport (A), learned covariant connection refinement (B), holonomy memory (C)
+  * Led an adversarial audit that found and remediated five critical defects (registry collisions, loss-semantics inconsistency, angular metric errors, factor leakage, incomplete provenance), independently validated from a clean checkout
+  * Established the supported result that fixed typed transport substantially improves the T1 benchmark (M100 test loss 0.0686 ± 0.0350; Factor A main effect +0.9085); prior claims on best-model, A×C interaction, and T5 curvature-memory were falsified
+  * Built the reproducibility stack: content-addressed run ledgers, round registry, claim-lineage tracking, verification scripts
+
 * **Research Project: Dissipation-Induced Nonreciprocal Current**
   * Collaborators: Zhichao Guo, Prof. Hua Wang | Apr. 2026 -- Present
   * Completed the analytic and computational derivation of the projected response σ_xxx as the first concrete case toward the general σ_abc formulation; results being organized toward a manuscript
