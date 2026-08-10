@@ -6,9 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a physics student at **Zhejiang University**, Hangzhou, China. Currently in my third year, I specialize in computational physics and condensed matter physics.
-
-This semester, I am taking **General Relativity** and **Solid State Physics**, I am particularly interested in condensed matter physics and eager to explore the quantum many-body phenomena in solid-state systems.
+I am a physics student at **Zhejiang University**, Hangzhou, China. Currently in my third year, I work on theoretical and computational condensed matter physics, with a focus on nonlinear transport and dissipation-induced response in quantum materials.
 
 ## Education
 
@@ -16,23 +14,39 @@ This semester, I am taking **General Relativity** and **Solid State Physics**, I
 *B.Sc. in Physics*, School of Physics | Sept. 2023 -- Present
 
 - **Expected Graduation:** June 2027
-- **Core Courses:** Thermodynamics and Statistical Physics (96/100), Electrodynamics (94/100), Quantum Mechanics, Mathematical Methods in Physics
+- **GPA:** 3.69 / 4.3; **Major GPA:** 3.97 / 4.3
+- **Selected Courses:** Quantum Mechanics, Thermodynamics and Statistical Physics (96), Electrodynamics (94), Solid State Physics (93), Topics in Theoretical Physics (91), Asymptotic Methods and Perturbation Theory, Computational Physics
 
 ## Research Experience
 
-**Electronic Instabilities in Zigzag Black Phosphorus Nanoribbons**
-*Independent Researcher* --- Advisor: Prof. Yunhao Lu | Dec. 2025 -- Present
+**Dissipation-Induced Nonreciprocal Current**
+*Research Project* --- Collaborators: Zhichao Guo, Prof. Hua Wang | Apr. 2026 -- Present
 
-- Verified that the system relaxes into a non-magnetic ground state driven by lattice reconstruction, opening a bandgap of ≈ 11.6 meV
-- Investigated the competition between Stoner instability and Peierls instability using DFT (VASP)
+- Completed the analytic and computational derivation of the projected response σ_xxx as the first concrete case toward the general σ_abc formulation; results are being organized toward a manuscript
+- Investigated dissipation-induced nonreciprocal current in time-reversal-symmetric and inversion-broken systems, aiming toward a general tensorial nonlinear-conductivity framework for σ_abc
+- Developed consistency checks for the DC limit, relaxation-rate dependence, band-index decomposition, and multiband response kernels
+- Verified the crossover between low-temperature insulating O(Γ²) behavior and high-temperature or metallic O(Γ) behavior in representative model calculations
+
+**Symbolic Normal-Form Reduction for Nonlinear Conductivity**
+*Independent Repository Project* --- Originated from the σ_xxx nonlinear-response calculation | Jun. 2026 -- Present
+
+- Independently proposed and developed a symbolic simplification workflow to organize large nonlinear-conductivity expressions into canonical algebraic sectors
+- Built a repo-native verification framework for pair-sector basis construction, including row-level coverage checks, family/orbit classification, residual-channel policies, and human-gated promotion criteria
+- Identified loop-type algebraic structures, including three-band products such as A_ab A_bc A_ca, and organized them into reproducible normal forms
+- Used Mathematica/Wolfram Language, Python, and Git-based artifact tracking for symbolic parsing, invariant matching, verification logs, and consistency checks
+
+**Electronic Instabilities in Zigzag Black Phosphorus Nanoribbons**
+*Independent Research Project* --- Advisor: Prof. Yunhao Lu | Dec. 2025 -- Jan. 2026
+
+- Verified that lattice reconstruction drives the system toward a non-magnetic ground state, opening a bandgap of ≈ 11.6 meV
+- Investigated the competition between Stoner instability and Peierls instability using first-principles calculations (VASP)
 - Analyzed band structures and Projected Density of States (PDOS) to identify edge-localized states
 
-**Calculation of Spontaneous Polarization in AlN**
-*Computational Physics Project* --- Advisor: Prof. Yunhao Lu | May 2025
+**Spontaneous Polarization in Wurtzite AlN**
+*Independent Research Project* --- Advisor: Prof. Yunhao Lu | Mar. -- May 2025
 
-- Successfully computed the polarization difference relative to the centrosymmetric reference (1.32 C/m²), achieving precision with <0.22% error
-- Performed First-principles calculations to determine the spontaneous polarization of Wurtzite AlN
-- Conducted rigorous convergence tests on plane-wave cutoff energy and K-point sampling
+- Computed the spontaneous polarization difference relative to the centrosymmetric reference structure, obtaining 1.32 C/m² with <0.22% error
+- Performed convergence tests on plane-wave cutoff energy and k-point sampling for first-principles polarization calculations
 
 **Non-linear Dynamics and Chaos in Magnetic Pendulum Systems**
 *Co-Researcher* --- Advisor: Prof. Zhouyang Wang | Late 2024
@@ -42,9 +56,11 @@ This semester, I am taking **General Relativity** and **Solid State Physics**, I
 
 ## Skills
 
-**Computational Physics:** VASP (DFT), First-principles Calculations
+**Computational Physics:** First-principles calculations / DFT (VASP)
 
-**Programming & Tools:** Python (NumPy, Matplotlib), Linux/Unix Shell, LaTeX, Origin
+**Programming & Symbolic Tools:** Python, Mathematica/Wolfram Language, Linux/Unix Shell, Git, LaTeX, Origin
+
+**Theoretical & Mathematical Physics:** Non-equilibrium transport; Differential geometry; Berry-phase physics; Asymptotic methods and perturbation theory; Group-theoretical methods
 
 **Languages:** English (Working Proficiency), Mandarin (Native), Cantonese (Fluent)
 
