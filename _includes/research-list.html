@@ -1,0 +1,24 @@
+<div class="projects">
+{%- for p in site.data.research %}{% if p.status == include.status %}
+  <article class="project">
+    <header class="project__header">
+      <h3 class="project__title">{{ p.title }}</h3>
+      <p class="project__meta">
+        <span>{{ p.role }}</span>{% if p.people %}<span>{{ p.people }}</span>{% endif %}<span>{{ p.period }}</span>
+      </p>
+    </header>
+    <p class="project__summary">{{ p.summary }}</p>
+    {%- if p.highlights %}
+    <ul class="project__highlights">
+      {%- for h in p.highlights %}
+      <li>{{ h }}</li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+    <footer class="project__footer">
+      {%- if p.tags %}<ul class="tags">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+      {%- for l in p.links %}<a class="project__link" href="{{ l.url }}">{{ l.label }} ↗</a>{% endfor %}
+    </footer>
+  </article>
+{%- endif %}{% endfor %}
+</div>

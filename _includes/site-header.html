@@ -1,0 +1,21 @@
+{%- assign writing_collections = "posts,learning,teaching,talks,thoughts" | split: "," -%}
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav class="site-nav" aria-label="Main">
+      {%- for link in site.data.navigation.main %}
+        {%- assign current = false -%}
+        {%- if page.url == link.url -%}
+          {%- assign current = true -%}
+        {%- elsif link.url == "/writing/" and writing_collections contains page.collection -%}
+          {%- assign current = true -%}
+        {%- endif %}
+      <a href="{{ link.url | relative_url }}"{% if current %} aria-current="page"{% endif %}>{{ link.title }}</a>
+      {%- endfor %}
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
+        <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7Z"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>

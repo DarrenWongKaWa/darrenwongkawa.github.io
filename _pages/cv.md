@@ -2,76 +2,55 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
+body_class: cv
 redirect_from:
   - /resume
 ---
 
-Education
-======
+## Education
 * **Zhejiang University**, Hangzhou, China
-  * B.Sc. in Physics, School of Physics | Sept. 2023 -- Present
+  * B.Sc. in Physics, School of Physics · Sept. 2023 – Present
   * Expected Graduation: June 2027
   * GPA: 3.69 / 4.3; Major GPA: 3.97 / 4.3
 
-Research Experience
-======
-* **Physics-for-AI Research Program: GNPNN (Geometry-Native Physical Neural Networks)**
-  * Aug. 2026 -- Present
-  * Investigates whether neural latent states typed as sections of symmetry- and gauge-structured fiber bundles, with connection-based message passing, give more compact, transferable, and interpretable representations than generic features
-  * Designed a U(1)/SO(2) graph benchmark with a complete 2³ factorial architecture experiment (192 scheduled configurations, 168 trained, 0 failed): fixed typed transport (A), learned covariant connection refinement (B), holonomy memory (C)
-  * Led an adversarial audit that found and remediated five critical defects (registry collisions, loss-semantics inconsistency, angular metric errors, factor leakage, incomplete provenance), independently validated from a clean checkout
-  * Established the supported result that fixed typed transport substantially improves the T1 benchmark (M100 test loss 0.0686 ± 0.0350; Factor A main effect +0.9085); prior claims on best-model, A×C interaction, and T5 curvature-memory were falsified
-  * Built the reproducibility stack: content-addressed run ledgers, round registry, claim-lineage tracking, verification scripts
-
+## Research Experience
 * **Research Project: Dissipation-Induced Nonreciprocal Current**
-  * Collaborators: Zhichao Guo, Prof. Hua Wang | Apr. 2026 -- Present
-  * Completed the analytic and computational derivation of the projected response σ_xxx as the first concrete case toward the general σ_abc formulation; results being organized toward a manuscript
-  * Investigated dissipation-induced nonreciprocal current in time-reversal-symmetric and inversion-broken systems, aiming toward a general tensorial nonlinear-conductivity framework for σ_abc
+  * Collaborators: Zhichao Guo, Prof. Hua Wang · Apr. 2026 – Present
+  * Completed the analytic and computational derivation of the projected response σ<sub>xxx</sub> as the first concrete case toward the general σ<sub>abc</sub> formulation; results being organized toward a manuscript
+  * Investigated dissipation-induced nonreciprocal current in time-reversal-symmetric and inversion-broken systems, aiming toward a general tensorial nonlinear-conductivity framework for σ<sub>abc</sub>
   * Developed consistency checks for the DC limit, relaxation-rate dependence, band-index decomposition, and multiband response kernels
   * Verified the crossover between low-temperature insulating O(Γ²) behavior and high-temperature or metallic O(Γ) behavior in representative model calculations
 
 * **Independent Repository Project: Symbolic Normal-Form Reduction for Nonlinear Conductivity**
-  * Originated from the σ_xxx nonlinear-response calculation | Jun. 2026 -- Present
+  * Originated from the σ<sub>xxx</sub> nonlinear-response calculation · Jun. 2026 – Present
   * Independently proposed and developed a symbolic simplification workflow to organize large nonlinear-conductivity expressions into canonical algebraic sectors
   * Built a repo-native verification framework for pair-sector basis construction, including row-level coverage checks, family/orbit classification, residual-channel policies, and human-gated promotion criteria
-  * Identified loop-type algebraic structures, including three-band products such as A_ab A_bc A_ca, and organized them into reproducible normal forms
+  * Identified loop-type algebraic structures, including three-band products such as A<sub>ab</sub>A<sub>bc</sub>A<sub>ca</sub>, and organized them into reproducible normal forms
 
 * **Research Assistant**
-  * Advisor: Prof. Yunhao Lu | Dec. 2025 -- Jan. 2026
+  * Advisor: Prof. Yunhao Lu · Dec. 2025 – Jan. 2026
   * Project: Electronic Instabilities in Zigzag Black Phosphorus Nanoribbons
   * Used VASP (DFT) for first-principles calculations; verified lattice-reconstruction-driven non-magnetic ground state with ~11.6 meV bandgap
 
 * **Independent Research Project**
-  * Advisor: Prof. Yunhao Lu | Mar. -- May 2025
+  * Advisor: Prof. Yunhao Lu · Mar. – May 2025
   * Project: Spontaneous Polarization in Wurtzite AlN
   * Computed spontaneous polarization (1.32 C/m², <0.22% error) with first-principles calculations
 
 * **Co-Researcher**
-  * Advisor: Prof. Zhouyang Wang | Late 2024
+  * Advisor: Prof. Zhouyang Wang · Late 2024
   * Project: Non-linear Dynamics and Chaos in Magnetic Pendulum Systems
 
-Skills
-======
+## Skills
 * **Computational Physics:** First-principles calculations / DFT (VASP)
 * **Programming & Symbolic Tools:** Python, Mathematica/Wolfram Language, Linux/Unix Shell, Git, LaTeX, Origin
 * **Theoretical & Mathematical Physics:** Non-equilibrium transport; Differential geometry; Berry-phase physics; Asymptotic methods and perturbation theory; Group-theoretical methods
 * **Languages:** English (Working Proficiency), Mandarin (Native), Cantonese (Fluent)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+## Honors & Awards
+* **Bronze Medal**, 53rd International Physics Olympiad (IPhO) · 2023
+* **Honorable Mention**, 23rd Asian Physics Olympiad (APhO) · 2023
+* **Third-Class Scholarship**, Zhejiang University (Academic Excellence) · 2024
 
-Learning
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
-Notes
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+## Notes & Writing
+Course notes, learning notes and research notes are collected on the [Writing](/writing/) page.

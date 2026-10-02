@@ -1,0 +1,14 @@
+<ul class="cards">
+{%- for p in site.data.research %}{% if p.featured %}
+  <li class="card">
+    <p class="card__kicker">{{ p.short | default: p.role }}</p>
+    <h3 class="card__title">{{ p.title }}</h3>
+    <p class="card__summary">{{ p.summary }}</p>
+    <p class="card__meta">
+      <span>{{ p.period }}</span>
+      {%- for l in p.links %}<a href="{{ l.url }}">{{ l.label }} ↗</a>{% endfor %}
+    </p>
+  </li>
+{%- endif %}{% endfor %}
+</ul>
+<p class="more-link"><a href="{{ '/research/' | relative_url }}">All projects →</a></p>
