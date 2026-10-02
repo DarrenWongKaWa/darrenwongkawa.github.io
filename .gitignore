@@ -1,0 +1,16 @@
+# Jekyll build output and caches
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Dependencies
+vendor/
+.bundle/
+node_modules/
+
+# OS / editor files
+.DS_Store
+
+# Local Claude Code settings
+.claude/settings.local.json

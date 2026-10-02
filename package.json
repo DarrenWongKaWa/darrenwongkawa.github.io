@@ -1,10 +1,11 @@
 {
-  "name": "academic-pages",
+  "name": "darrenwongkawa.github.io",
+  "private": true,
   "version": "0.8.1.1",
-  "description": "Academic Pages Mistakes Jekyll theme npm build scripts",
+  "description": "Ka Wa (Darren) Wong's personal academic site (Jekyll, Academic Pages theme) - JS build scripts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/academicpages/academicpages.github.io"
+    "url": "https://github.com/DarrenWongKaWa/darrenwongkawa.github.io"
   },
   "keywords": [
     "jekyll",
@@ -17,9 +18,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/academicpages/academicpages.github.io/issues"
+    "url": "https://github.com/DarrenWongKaWa/darrenwongkawa.github.io/issues"
   },
-  "homepage": "https://github.com/academicpages/academicpages.github.io",
+  "homepage": "https://darrenwongkawa.github.io",
   "engines": {
     "node": ">= 0.10.0"
   },
