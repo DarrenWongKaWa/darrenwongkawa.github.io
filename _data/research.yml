@@ -1,0 +1,107 @@
+# Research projects shown on the home page (featured: true) and on /research/.
+# status: current | past. Order here is display order.
+
+- title: "Dissipation-Induced Nonreciprocal Current"
+  short: "Finite-Γ nonlinear transport"
+  status: current
+  featured: true
+  role: "Research project"
+  people: "with Zhichao Guo and Prof. Hua Wang"
+  period: "Apr 2026 – present"
+  summary: >-
+    Second-order DC response of dissipative quantum materials at finite relaxation rate Γ,
+    toward a general tensorial framework for σ<sub>abc</sub>.
+  highlights:
+    - "Completed the analytic and computational derivation of the projected response σ<sub>xxx</sub> as the first concrete case of the general σ<sub>abc</sub> formulation; results are being organized toward a manuscript."
+    - "Froze the exact finite-Γ compactification of the DC response: a one-thermal-master form with nine pointwise-exact minimal geometric generators. Under time-reversal symmetry over the full Brillouin zone the nine channels reduce to three, and at leading weak Γ a single channel gives the Γ⁻¹ nonreciprocal coefficient, replayable end-to-end via Wolfram scripts."
+    - "Verified the crossover between low-temperature insulating O(Γ²) and high-temperature or metallic O(Γ) behaviour, with consistency checks for the DC limit, Γ dependence, band-index decomposition and multiband kernels."
+  tags: [nonlinear transport, quantum geometry, Wolfram Language]
+
+- title: "First-Principles Finite‑Γ Nonlinear Conductivity"
+  short: "From DFT to σ<sub>abc</sub> in real materials"
+  status: current
+  featured: true
+  role: "Computational project"
+  period: "2026 – present"
+  summary: >-
+    Finite-Γ nonlinear DC conductivity of MoS₂ and graphene/hBN from Wannier models:
+    VASP → Wannier90 → certified operators → finite-Γ contraction.
+  highlights:
+    - "Built Wannier90 3.1 and VASP 6.3 from source and derived certified Wannier models (disentangled 11-band MoS₂; N16 graphene/hBN heterostructure)."
+    - "Runs the finite-Γ contraction with a single Julia engine (WannierNLQG) through versioned, checksummed production releases and Γ scans."
+  tags: [DFT, Wannier90, Julia, HPC]
+
+- title: "symbolic-compactification"
+  short: "Verified symbolic reasoning for physics"
+  status: current
+  featured: true
+  role: "Open-source software"
+  period: "Jun 2026 – present"
+  summary: >-
+    An installable skill where a model may propose and only the program certifies:
+    a candidate is promoted only when its residual is exactly zero.
+  highlights:
+    - "Grew out of organizing large nonlinear-conductivity expressions into canonical algebraic sectors (loop structures such as A<sub>ab</sub>A<sub>bc</sub>A<sub>ca</sub>)."
+    - "Three tasks over one engine: compactify an expression, audit a paper's derivation into reviewer HTML/Markdown, and check many-body identities (Matsubara sums, Langreth rules, Green's-function integrals)."
+  tags: [Python, SymPy, AI agents]
+  links:
+    - { label: "GitHub", url: "https://github.com/DarrenWongKaWa/symbolic-compactification" }
+
+- title: "Future B"
+  short: "Exact-corrected diagrammatic Monte Carlo"
+  status: current
+  featured: true
+  role: "Methods study"
+  period: "Sep 2026"
+  summary: >-
+    Exact-corrected delayed acceptance and validation tools for first-principles
+    diagrammatic Monte Carlo, benchmarked on LiF polarons.
+  highlights:
+    - "Native proposal screening, event-level correctness checks, correlated-Monte-Carlo statistics and fixed-order graph reuse, reported together with negative and unresolved results."
+    - "Released as a closed, reproducible methods-study archive (v1.0.0 science frozen) with a Python package and FEP-DMC source adapters."
+  tags: [Monte Carlo, electron–phonon, Fortran, Python]
+  links:
+    - { label: "GitHub", url: "https://github.com/DarrenWongKaWa/future-b" }
+
+- title: "Keldysh4ai"
+  short: "Differentiable physical solvers"
+  status: current
+  role: "Physics-for-AI program"
+  period: "Aug 2026 – present"
+  summary: >-
+    Predictive models as differentiable physical solvers with learnable closures under a
+    fixed Keldysh/NEGF grammar: only typed unknown operators are trainable.
+  highlights:
+    - "Ran the E10 campaign with explicit Γ(E) and Σ objects, causal memory, white-box theory-level interventions and transfer/error diagnostics; wrote the stage closeout and claim–evidence matrix."
+    - "Kept an evidence-first protocol end to end: preregistration, immutable artifacts and an audited task pipeline past 560 independently reviewed closures."
+  tags: [NEGF, machine learning]
+
+- title: "Electronic Instabilities in Zigzag Black Phosphorus Nanoribbons"
+  status: past
+  role: "Research project"
+  people: "advisor Prof. Yunhao Lu"
+  period: "Dec 2025 – Jan 2026"
+  summary: >-
+    First-principles (VASP) study of the competition between Stoner and Peierls instabilities:
+    lattice reconstruction drives a non-magnetic ground state with a ≈ 11.6 meV gap.
+  tags: [DFT, VASP]
+
+- title: "Spontaneous Polarization in Wurtzite AlN"
+  status: past
+  role: "Research project"
+  people: "advisor Prof. Yunhao Lu"
+  period: "Mar – May 2025"
+  summary: >-
+    First-principles spontaneous polarization relative to the centrosymmetric reference:
+    1.32 C/m² with under 0.22% error, after cutoff-energy and k-point convergence tests.
+  tags: [DFT, VASP]
+
+- title: "Nonlinear Dynamics and Chaos in Magnetic Pendulum Systems"
+  status: past
+  role: "Co-researcher"
+  people: "advisor Prof. Zhouyang Wang"
+  period: "Late 2024"
+  summary: >-
+    Lagrangian model of a pendulum in a nonlinear magnetic potential; sensitivity to initial
+    conditions and the transition from chaotic to periodic motion.
+  tags: [nonlinear dynamics]

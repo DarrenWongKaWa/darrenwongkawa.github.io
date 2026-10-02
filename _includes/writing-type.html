@@ -1,0 +1,8 @@
+{%- assign d = include.doc -%}
+{%- if d.type -%}{{ d.type | downcase | capitalize }}
+{%- elsif d.collection == "posts" -%}{% if d.categories contains "Research" %}Research note{% else %}Post{% endif %}
+{%- elsif d.collection == "learning" -%}Learning notes
+{%- elsif d.collection == "teaching" -%}Course notes
+{%- elsif d.collection == "talks" -%}Talk
+{%- elsif d.collection == "thoughts" -%}Thought
+{%- else -%}Note{%- endif -%}

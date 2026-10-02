@@ -1,0 +1,39 @@
+---
+layout: archive
+title: "Writing"
+permalink: /writing/
+lede: "Research notes, course notes and learning notes."
+redirect_from:
+  - /year-archive/
+  - /thoughts/
+  - /learning/
+  - /teaching/
+  - /talks/
+  - /blog/
+---
+{%- assign docs = site.posts | concat: site.learning | concat: site.teaching | concat: site.talks | concat: site.thoughts | sort: "date" | reverse -%}
+{%- comment -%} A talk that duplicates a learning note (same title) is listed once, under the learning note. {%- endcomment -%}
+{%- assign learning_titles = site.learning | map: "title" -%}
+{%- assign kept = "" | split: "" -%}
+{%- for d in docs -%}
+  {%- if d.collection == "talks" and learning_titles contains d.title -%}{%- continue -%}{%- endif -%}
+  {%- assign kept = kept | push: d -%}
+{%- endfor -%}
+{%- assign docs = kept -%}
+{%- assign years = docs | group_by_exp: "d", "d.date | date: '%Y'" -%}
+{%- for year in years %}
+<section class="writing-year" aria-labelledby="y{{ year.name }}">
+  <h2 id="y{{ year.name }}">{{ year.name }}</h2>
+  <ul class="writing-list">
+    {%- for d in year.items %}
+    <li>
+      <a class="writing-list__title" href="{{ d.url | relative_url }}">{{ d.title }}</a>
+      <span class="writing-list__meta"><span class="badge">{% include writing-type.html doc=d %}</span>{% if d.collection == "posts" %}<time datetime="{{ d.date | date_to_xmlschema }}">{{ d.date | date: "%b %-d" }}</time>{% endif %}</span>
+      {%- if d.excerpt and d.collection == "posts" %}
+      <p class="writing-list__excerpt">{{ d.excerpt | strip_html | strip | truncate: 220 }}</p>
+      {%- endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endfor %}

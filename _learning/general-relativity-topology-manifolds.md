@@ -2,6 +2,7 @@
 layout: single
 title:  "General Relativity: Topology and Manifolds"
 collection: learning
+date: 2026-03-12
 header:
   teaser: ""
 categories:

@@ -23,7 +23,7 @@ repository               : "DarrenWongKaWa/darrenwongkawa.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Kawa Wong"
   pronouns         :
   bio              : "Physics student at Zhejiang University"
@@ -165,6 +165,13 @@ include:
   - _pages
   - files
 exclude:
+  - .claude
+  - CONTRIBUTING.md
+  - README.md
+  - Gemfile.lock
+  - docker-compose.yaml
+  - _config_docker.yml
+  - scripts
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
