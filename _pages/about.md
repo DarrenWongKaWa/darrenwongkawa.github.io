@@ -108,5 +108,4 @@ The King I followed is 1:24:58. But I will try to excel that soon.
 ## Contact
 
 - **Email:** [kawawong@zju.edu.cn](mailto:kawawong@zju.edu.cn)
-- **Phone:** (+86) 195-6410-9887
 - **Location:** Hangzhou, China
